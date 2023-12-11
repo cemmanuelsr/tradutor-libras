@@ -8,23 +8,31 @@ Primeiro, você vai precisar ter [Python](https://www.python.org/) instalado na 
 
 Crie e ative um ambiente virtual
 
-`$ python -m venv env`
-`$ source env/bin/activate`
+```
+$ python -m venv env
+$ source env/bin/activate
+```
 
 O comando para ativar pode ser diferente se você usar algum sistema operacional esquisito (como o Windows).
 
 Instale poetry e em seguida instale as dependências
 
-`$ pip install poetry`
-`$ poetry install`
+```
+$ pip install poetry
+$ poetry install
+```
 
 Execute a aplicação
 
-`$ python main.py`
+```
+$ python main.py
+```
 
 Para rodar a coleta de dados
 
-`$ python utils/data_collection.py`
+```
+$ python utils/data_collection.py
+```
 
 ## Demonstração
 
