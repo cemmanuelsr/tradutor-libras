@@ -17,8 +17,8 @@ def test_connect():
 @socketio.on("image")
 def receive_image(image):
     image = base64_to_image(image)
-    # gray = hand_sign_recognition(image)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    gray = hand_sign_recognition(image)
+    # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     frame_resized = cv2.resize(gray, (640, 360))
     encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
