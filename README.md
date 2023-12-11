@@ -22,9 +22,22 @@ Execute a aplicação
 
 `$ python main.py`
 
+Para rodar a coleta de dados
+
+`$ python utils/data_collection.py`
+
 ## Demonstração
 
+- [Demonstrativo aplicação](https://drive.google.com/file/d/13m20RhY6cd3sjp3o8TEN5yJPG7a76bKo/view?usp=sharing)
+- [Demonstrativo coleta de dados](https://drive.google.com/file/d/16gEJx_UWCS1SQQlF9RlcUcRIC3OZJqkM/view?usp=sharing)
 
+## Deploy
+
+Para fazer deploy você irá precisar instalar o aplicativo [Deta Space](https://deta.space/docs/en/build/fundamentals/space-cli).
+
+Você pode seguir [esse tutorial](https://deta.space/docs/en/build/quick-starts/python/) ou simplesmente executer
+
+`$ space push`
 
 ## Referências
 
