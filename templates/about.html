@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tradutor Libras</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+        <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+        <script
+            src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.socket.io/4.7.2/socket.io.min.js"
+            integrity="sha384-mZLF4UVrpi/QTWPA7BjNPEnkIfRFn4ZEO3Qt/HFklTJBj/gBOV8G3HcKn4NfQblz"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="navbar-container">
+            <a id="logo-container" href="/">
+                <img id="logo-img" src="{{ url_for('static',filename='favicon.png') }}"/>
+                <p>Tradutor Libras</p>
+            </a>
+            <a id="navbar-link" href="/about" target="_blank">Sobre</a>
+        </div>
+
+        <div id="about-container">
+            <p>
+                Esse é um projeto desenvolvido por Caio Emmanuel, Letícia Coêlho e Lídia Alves.
+            </p>
+            <p>
+                É um tradutor do alfabeto de libras desenvolvido durante a disciplina de visão computacional.
+            </p>
+            <p>
+                Aqui você pode encontrar um alfabeto de libras completo para testar.
+            </p>
+            <img src="https://www.lojaapoio.com.br/lojas/00045394/prod/BannerAlfabetoManualLibras.jpg" />
+        </div>
+    </body>
+</html>
